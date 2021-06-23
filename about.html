@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/shriuniversitylogo.png"></a>
+                 <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="ContactUs.html">CONTACT</a></li>
+                     </ul>
+                 </div>
+                 <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section> 
+
+        <!-----About us content-->
+        <section class="about-us">
+            <div class="about-col">
+                <h1> India's No.1 Private University</h1>
+                <p>Shri university was founded by NanoSoft Technological Solutions in 1978.
+                Since then the instituition has taught many students from allover the world.
+                Our University has a strength of 6000 UG students and 1500 Pg students per year.
+                We also have 200+ research scholors at our university. We do have a faculty strength
+                of over 300. Every faculty member is a Phd scholar and capable of teaching the
+                students with ease. We do have a very good faculty to student ratio of 1:10. Our
+                main moto is to help students conquer this world.    
+                </p>
+                <a href="Course.html"  class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col"></div>
+            <img src="images/about.jpg">
+        </section>
+
+
+<!------Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+         <p>Website created by Shrinath S </p>
+         </div>
+</section>
+
+
+
+        <!--------JavaScript for Toggle Menu------>
+         <script>
+             var navLinks = document.getElementById("navLinks");
+
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hidemenu(){
+                 navLinks.style.right = "-200px";
+             }
+         </script>
+
+    </body>
+</html>

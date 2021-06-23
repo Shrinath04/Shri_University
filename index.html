@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Shri University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/shriuniversitylogo.png"></a>
+                 <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="ContactUs.html">CONTACT</a></li>
+                     </ul>
+                 </div>
+                 <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+<div class="text-box">
+    <h1>India's Best University</h1>
+    <p>Shri University is one of the finest universities in India.<br> Its ranked No.4 in nirf ranking. 
+    </p>
+    <a href="about.html" class="hero-btn">Visit us to know more!</a> 
+</div>
+        </section>
+
+        <!---Courses--->
+        <section class="course">
+            <h1> Courses We Offer</h1>
+            <p> Undergraduation  and Postgraduation</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Under Graduation</h3>
+                    <p> We offer Under graduaution courses in Information Technology, Computer Science Engineering, Electronics and Communication Engineering,
+                        Electricals and Electronics Engineering, Mechanical Engineering, Bio Technology and Civil Engineering.
+                </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>We offer Post graduaution courses in Information Technology, Computer Science Engineering, Electronics and Communication Engineering,
+                        Electricals and Electronics Engineering, Mechanical Engineering, Bio Technology and Civil Engineering. </p>
+                     </div>
+            </div>
+        </section>
+        <!------ campus----->
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Our Global campus for students studying outside India is situated at London, NewYork and Washington.</p>
+            
+            <div class= "row">
+                <div class="campus-col">
+                    <img src="images/London.png">
+                    <div class="layer">
+                        <h3>London</h3>
+                    </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NewYork</h3>
+                    </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>Washington</h3>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!----Facilities-->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Our University has all the world class facilities!</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>Library</h3>
+                    <p>The Library at our university holds a whopping 1 lakh+
+                         books for our students.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Playground</h3>
+                    <p>The playground at our university is a very 
+                        huge one and we have separate playarea for each sport.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Cafeteria</h3>
+                    <p>The Cafeteria at our college serves tasty and healthy foods.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!------testimonials-->
+        <section class="testimonials">
+            <h1>What our Students say?</h1>
+            <p>Shri University is a great place to gain knowledge!</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/student.png">
+                    <div>
+                        <p>Choosing Shri University was the best decision of my life.</p>
+                        <h3>Christy</h3>
+                    </div>
+
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>Shri Uiversity has changed my life alot!.</p>
+                        <h3>Harry</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-----call to action---->
+        <section class="cta">
+            <h1>Enroll for our various online courses<br> anywhere from the world</h1>
+            <a href="ContactUs.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+<!------Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Shri University was founded by NanoSoft Technological Solutions in 1978. <br>Since then the instituition
+         has taught many students from allover the world. </p>
+         <p>Website created by Shrinath S </p>
+         </div>
+</section>
+
+
+
+        <!--------JavaScript for Toggle Menu------>
+         <script>
+             var navLinks = document.getElementById("navLinks");
+
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hidemenu(){
+                 navLinks.style.right = "-200px";
+             }
+         </script>
+
+    </body>
+</html>
